@@ -51,9 +51,6 @@
 
 ## 📸 Interface Gallery
 
-<!-- Загрузи скриншоты в папку assets и вставь ссылки сюда -->
-<!-- Пример: ![Dashboard](assets/screen1.png) -->
-
 <div align="center">
   <img src="https://github.com/YgalaxyY/Cardora-AI-Automation/blob/main/assets/main_genericWindow.png" style="border-radius: 10px; border: 1px solid #30363d;">
   <br><br>
@@ -71,12 +68,12 @@
 Приложение поставляется в виде скомпилированного инсталлятора.
 
 1. Перейдите в раздел [**Releases**](../../releases).
-2. Скачайте последнюю версию `CardoraSetup_v2.5.exe`.
+2. Скачайте последнюю версию `CardoraStudioSetupDark.exe`.
 3. Запустите установщик.
 4. После запуска скопируйте ваш **HWID** и отправьте администратору для получения лицензионного ключа.
 
 ---
 
 <div align="center">
-    <p style="color: #8b949e;">© 2026 Developed by Galaxyy. All Rights Reserved.</p>
+    <p style="color: #8b949e;">© 2026 Developed by YgalaxY. All Rights Reserved.</p>
 </div>
