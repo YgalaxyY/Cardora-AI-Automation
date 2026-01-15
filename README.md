@@ -55,9 +55,13 @@
 <!-- Пример: ![Dashboard](assets/screen1.png) -->
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/0D1117/A970FF?text=Dashboard+Screenshot+Here" style="border-radius: 10px; border: 1px solid #30363d;">
+  <img src="https://github.com/YgalaxyY/Cardora-AI-Automation/blob/main/assets/main_genericWindow.png" style="border-radius: 10px; border: 1px solid #30363d;">
   <br><br>
-  <img src="https://via.placeholder.com/800x400/0D1117/00D4FF?text=AI+Settings+Screenshot+Here" style="border-radius: 10px; border: 1px solid #30363d;">
+  <img src="https://github.com/YgalaxyY/Cardora-AI-Automation/blob/main/assets/file_window.png" style="border-radius: 10px; border: 1px solid #30363d;">
+     <br><br>
+  <img src="https://github.com/YgalaxyY/Cardora-AI-Automation/blob/main/assets/table_window.png" style="border-radius: 10px; border: 1px solid #30363d;">
+     <br><br>
+  <img src="https://github.com/YgalaxyY/Cardora-AI-Automation/blob/main/assets/Instruction_window.png" style="border-radius: 10px; border: 1px solid #30363d;">
 </div>
 
 ---
