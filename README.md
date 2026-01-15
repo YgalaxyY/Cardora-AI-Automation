@@ -1,21 +1,23 @@
 <div align="center">
 
-<!-- LOGO -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZxeWw0Z3Z3eWw0Z3Z3eWw0Z3Z3eWw0Z3Z3eWw0Z3Z3/xT9IgzoKnwFNmISR8I/giphy.gif" width="100%" height="250" style="object-fit: cover; border-radius: 24px; border: 2px solid #8B5CF6; box-shadow: 0px 0px 20px rgba(139, 92, 246, 0.4);">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:120458,100:4B0082&height=220&section=header&text=CARDORA%20AI&fontSize=90&animation=fadeIn&fontColor=A970FF&desc=NEXT-GEN%20AUTOMATION%20SYSTEM&descAlign=60&descAlignV=70" width="100%" style="border-radius: 24px;" />
 
-<h1 style="color: #A970FF; font-size: 55px; margin-bottom: 0; font-family: 'Segoe UI'; font-weight: 800;">🌌 CARDORA AI</h1>
-<p style="color: #A78BFA; font-size: 20px; margin-top: 5px; font-weight: 500;">Next-Gen Enterprise Content Automation Ecosystem</p>
+<br>
 
-<!-- BADGES -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=A970FF&center=true&vCenter=true&width=600&height=50&lines=CORE+INIT+COMPLETE...;SECURITY+PROTOCOL:+HWID_ENCRYPTED;AI+ENGINE:+REAL-ESRGAN+V2;SYSTEM+STATUS:+STABLE" alt="Typing SVG" />
+</a>
+
+<p style="color: #A78BFA; font-size: 20px; margin-top: 15px; font-weight: 500;">Industrial Content Production Hub</p>
+
 <p>
-    <img src="https://img.shields.io/badge/Version-2.5_Stable-blue?style=for-the-badge&color=8B5CF6">
+    <img src="https://img.shields.io/badge/Version-3.0_Stable-blue?style=for-the-badge&color=8B5CF6">
     <img src="https://img.shields.io/badge/Security-HWID_Encrypted-success?style=for-the-badge&color=10B981">
     <img src="https://img.shields.io/badge/OS-Windows_10_/_11-0078D4?style=for-the-badge&logo=windows">
     <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge">
 </p>
 
 <br>
-
 </div>
 
 ## 🛸 О Проекте | About The Project
