@@ -43,7 +43,11 @@
   <!-- ПРЕВЬЮ ВИДЕО -->
   <!-- Загрузи скриншот видео в папку assets и назови video_preview.jpg -->
   <a href="ССЫЛКА_НА_ВИДЕО_ВК">
-    <img src="assets/video_preview.jpg" width="100%" style="border-radius: 12px; border: 2px solid #7B2CBF; box-shadow: 0 0 20px rgba(123, 44, 191, 0.3);" alt="Нажмите для просмотра видео">
+    <img src="assets/cardora_story.png" 
+     width="50%" 
+     style="border-radius: 50%; border: 2px solid #7B2CBF; box-shadow: 0 0 20px rgba(123, 44, 191, 0.3);" 
+     alt="Нажмите для просмотра видео">
+
   </a>
   
   <br>
