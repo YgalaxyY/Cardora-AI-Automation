@@ -147,7 +147,7 @@
 Готовы ускорить работу в 10 раз? Свяжитесь с нами для получения демо-ключа или покупки полной версии.
 
 <div align="center">
-  <a href="https://t.me/igalaxyLight">
+  <a href="https://t.me/ygalaxyy">
     <img src="https://img.shields.io/badge/Telegram-Написать-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&height=40">
   </a>
 </div>
