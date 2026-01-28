@@ -42,7 +42,7 @@
 <div align="center">
   <!-- ПРЕВЬЮ ВИДЕО -->
   <!-- Загрузи скриншот видео в папку assets и назови video_preview.jpg -->
-  <a href="ССЫЛКА_НА_ВИДЕО_ВК">
+  <a href="https://vk.com/clip874418067_456239038">
     <img src="assets/cardora_story.png" 
      width="50%" 
      style="border-radius: 50%; border: 2px solid #7B2CBF; box-shadow: 0 0 20px rgba(123, 44, 191, 0.3);" 
@@ -53,11 +53,11 @@
   <br>
   
   <!-- КНОПКИ ВЫБОРА ПЛАТФОРМЫ -->
-  <a href="ССЫЛКА_НА_ВИДЕО_ВК">
+  <a href="https://vk.com/clip874418067_456239038">
     <img src="https://img.shields.io/badge/Смотреть_на-VK_Video-0077FF?style=for-the-badge&logo=vk&logoColor=white">
   </a>
   &nbsp;&nbsp;
-  <a href="ССЫЛКА_НА_ЮТУБ">
+  <a href="https://youtube.com/shorts/i4wScSCKaQk?si=VgHsIkIg2_vwVYQE">
     <img src="https://img.shields.io/badge/Смотреть_на-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
   </a>
 </div>
