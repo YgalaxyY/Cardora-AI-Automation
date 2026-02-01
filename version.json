@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "url": "https://github.com/YgalaxyY/Cardora-AI-Automation/releases/latest/download/CardoraStudio_Setup.exe",
-    "changelog": "Первый релиз."
+    "version": "1.1.0",
+    "url": "https://github.com/YgalaxyY/Cardora-AI-Automation/releases/download/v1.1.0/CardoraStudio_v1.1.0_Setup.exe",
+    "changelog": "- Добавлена поддержка Ozon.\n- Исправлена ошибка с памятью.\n- Ускорен запуск на 20%."
 }
