@@ -16,7 +16,7 @@
 
 <!-- BADGES -->
 <p>
-    <img src="https://img.shields.io/badge/Release-v1.0.0-7B2CBF?style=for-the-badge&labelColor=240046">
+    <img src="https://img.shields.io/badge/Release-v1.2.0-7B2CBF?style=for-the-badge&labelColor=240046">
     <img src="https://img.shields.io/badge/OS-Windows_10_/_11-0078D4?style=for-the-badge&logo=windows">
     <img src="https://img.shields.io/badge/Wildberries-Ready-purple?style=for-the-badge&logo=shopee">
     <img src="https://img.shields.io/badge/Ozon-Ready-blue?style=for-the-badge&logo=azure-devops">
