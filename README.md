@@ -83,7 +83,7 @@
 *   **Связи:** Вы один раз указываете, какой PSD-макет подходит к какой таблице Excel.
 
 <div align="center">
-  <img src="assets/file_window.png" width="90%" style="border-radius: 10px; border: 1px solid #5a189a;">
+  <img src="assets/file_windows.png" width="90%" style="border-radius: 10px; border: 1px solid #5a189a;">
 </div>
 
 <br>
