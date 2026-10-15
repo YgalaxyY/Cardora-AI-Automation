@@ -280,8 +280,15 @@
                 <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
                 <span class="ml-4 text-xs text-gray-500 font-mono tracking-wider"></span>
             </div>
-            <img src="https://raw.githubusercontent.com/YgalaxyY/Cardora-AI-Automation/main/assets/generic_window.png"
-                alt="Cardora Interface" class="w-full h-auto object-cover opacity-95">
+            <div class="flex flex-wrap justify-center gap-2 p-3 border-b border-white/10 bg-[#0A0A0F]" role="group" aria-label="Экраны Cardora Studio 2.0">
+                <button type="button" class="cardora-screen-button px-4 py-2 rounded-lg text-sm border border-white/10 text-gray-300" data-cardora-screen="generation" aria-pressed="true">Генерация и AI</button>
+                <button type="button" class="cardora-screen-button px-4 py-2 rounded-lg text-sm border border-white/10 text-gray-300" data-cardora-screen="tables" aria-pressed="false">Шаблоны Excel</button>
+                <button type="button" class="cardora-screen-button px-4 py-2 rounded-lg text-sm border border-white/10 text-gray-300" data-cardora-screen="upload" aria-pressed="false">Выгрузка WB · Beta</button>
+            </div>
+            <a id="cardora-screen-full" href="assets/cardora-v2-generation.png" target="_blank" rel="noopener" class="block" title="Открыть скриншот в полном размере">
+                <img id="cardora-screen" src="assets/cardora-v2-generation.png" width="1600" height="1020" alt="Cardora Studio 2.0: пакетная подготовка изображений" class="w-full h-auto object-contain">
+            </a>
+            <p id="cardora-screen-caption" class="px-4 py-3 text-xs text-gray-400 border-t border-white/10">Генерация и AI. Интерфейс версии 2.0 с демонстрационными данными. Нажмите на скриншот, чтобы увеличить.</p>
         </div>
     </section>
 
@@ -425,21 +432,21 @@
     <section id="demo" class="py-32 px-6 z-10 relative">
         <div class="max-w-4xl mx-auto text-center">
             <h2 data-aos="fade-up" class="text-3xl md:text-5xl font-bold mb-6 font-tech uppercase tracking-tight">
-                Результат за <span class="text-purpLight">60 секунд</span>
+                Cardora Studio 2.0 <span class="text-purpLight">в работе</span>
             </h2>
             <p data-aos="fade-up" data-aos-delay="100" class="text-textSec mb-12 text-lg max-w-2xl mx-auto">
-                Посмотрите, как Cardora AI превращает папку с исходниками в готовый к загрузке архив с карточками и таблицами.
+                Посмотрите демонстрацию Cardora Studio. Подробный сценарий на ваших материалах можно обсудить с разработчиком.
             </p>
 
             <div data-aos="zoom-in" data-aos-delay="200" 
-                class="relative max-w-[300px] mx-auto rounded-[4rem] p-3 bg-[#12121A] border-[8px] border-white/10 shadow-[0_0_80px_rgba(139,92,246,0.2)] overflow-hidden aspect-[9/16]">
+                class="relative max-w-4xl mx-auto rounded-2xl p-2 bg-[#12121A] border border-white/10 shadow-[0_0_80px_rgba(139,92,246,0.2)] overflow-hidden aspect-[16/10]">
                 
-                <a href="https://youtube.com/shorts/BmdBSVfBtas?feature=share" target="_blank" 
-                    class="block relative h-full rounded-[3.2rem] overflow-hidden group bg-[#050508]">
+                <a href="https://www.youtube.com/shorts/BmdBSVfBtas" target="_blank" 
+                    class="block relative h-full rounded-xl overflow-hidden group bg-[#050508]">
                     
-                    <img src="https://raw.githubusercontent.com/YgalaxyY/Cardora-AI-Automation/main/assets/video_preview.jpg" 
-                        alt="Просто нажми на меня" 
-                        class="w-full h-full transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-100 object-cover">
+                    <img src="assets/cardora-v2-generation.png" 
+                        alt="Демонстрация Cardora Studio 2.0" 
+                        class="w-full h-full transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-100 object-contain">
                     
                     <div class="absolute inset-0 flex flex-col justify-center items-center bg-black/40 group-hover:bg-black/10 transition-all">
                         <div class="w-20 h-20 bg-purp/90 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 shadow-[0_0_40px_rgba(139,92,246,0.5)] group-hover:scale-110 transition-transform duration-300 mb-4">
@@ -520,6 +527,34 @@
             });
         });
     </script>
+
+    <style>
+        .cardora-screen-button[aria-pressed="true"] { background: rgba(139,92,246,.2); border-color: #8B5CF6; color: #D6C4FF; }
+        .cardora-screen-button:focus-visible { outline: 2px solid #B197FC; outline-offset: 3px; }
+    </style>
+    <script>
+        (() => {
+            const screens = {
+                generation: { file: 'assets/cardora-v2-generation.png', title: 'Генерация и AI' },
+                tables: { file: 'assets/cardora-v2-tables.png', title: 'Шаблоны Excel' },
+                upload: { file: 'assets/cardora-v2-upload.png', title: 'Выгрузка на Wildberries · Beta' }
+            };
+            const image = document.getElementById('cardora-screen');
+            const full = document.getElementById('cardora-screen-full');
+            const caption = document.getElementById('cardora-screen-caption');
+            const buttons = document.querySelectorAll('[data-cardora-screen]');
+            buttons.forEach(button => button.addEventListener('click', () => {
+                const screen = screens[button.dataset.cardoraScreen];
+                if (!screen || !image || !full || !caption) return;
+                image.src = screen.file;
+                image.alt = 'Cardora Studio 2.0: ' + screen.title;
+                full.href = screen.file;
+                caption.textContent = screen.title + '. Интерфейс версии 2.0 с демонстрационными данными. Нажмите на скриншот, чтобы увеличить.';
+                buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+            }));
+        })();
+    </script>
+
 </body>
 
 
